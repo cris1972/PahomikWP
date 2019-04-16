@@ -12,7 +12,7 @@
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
-<meta charset="<?php bloginfo( 'charset' ); ?>">
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 
@@ -58,7 +58,7 @@ do_action( 'flash_before' ); ?>
 			<div class="tg-container">
 				<div class="tg-column-wrapper clearfix">
 					<div class="left-content">
-						<?php echo flash_top_header_content( 'flash_top_header_left' ); ?>
+						<?php// echo flash_top_header_content( 'flash_top_header_left' ); ?>
 					</div>
 					<div class="right-content">
 						<?php echo flash_top_header_content( 'flash_top_header_right' ); ?>
